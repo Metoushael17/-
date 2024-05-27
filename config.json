@@ -1,0 +1,136 @@
+{
+  "facebookAccount": {
+    "email": "",
+    "password": "",
+    "2FASecret": "",
+    "i_user": "",
+    "proxy": null,
+    "userAgent": "Mozilla/5.0 (Linux; Android 12; M2102J20SG) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Mobile Safari/537.36",
+    "intervalGetNewCookie": 1440,
+    "notes": ""
+  },
+  "antiInbox": false,
+  "language": "en",
+  "notesLanguage": "",
+  "adminOnly": {
+    "enable": false,
+    "ignoreCommand": []
+  },
+  "adminBot": ["61551417118451"],
+  "whiteListMode": {
+    "enable": false,
+    "whiteListIds": [],
+    "notes": ""
+  },
+  "nickNameBot": "🎯 | 𝔸𝕟𝕕𝕖𝕣.20 𝕓𝕪 𝕨𝕒𝕝𝕜𝕖𝕣 𝕞𝕖𝕥𝕠𝕦𝕤𝕙𝕖𝕝𝕒..🤬",
+  "prefix": "∆",
+  "database": {
+    "type": "sqlite",
+    "uriMongodb": "",
+    "autoSyncWhenStart": true,
+    "autoRefreshThreadInfoFirstTime": true,
+    "notes": ""
+  },
+  "timeZone": "Africa/Ouagadougou",
+  "credentials": {
+    "gmailAccount": {
+      "email": "cliffbotbeluga@gmail.com",
+      "clientId": "335951889803-q0sqvpqjire12vl0c1drqpvq6trqe7qi.apps.googleusercontent.com",
+      "clientSecret": "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",
+      "refreshToken": "1//04vKSsirtbMjRCgYIARAAGAQSNwF-L9Ir45Y2gJy6rg7wvfCbzF5fTFQxOhV83N6jQC-N5n6S-rNnEUgujiuWu4OvrLEbmELMcSI",
+      "apiKey": ""
+    },
+    "gRecaptcha": {
+      "siteKey": "6LcEPTMpAAAAAKRhQmTp03g4rkq-U6jXs8E8rDf5",
+      "secretKey": "6LcEPTMpAAAAAKRhQmTp03g4rkq-U6jXs8E8rDf5"
+    }
+  },
+  "dashBoard": {
+    "enable": true,
+    "expireVerifyCode": 300000,
+    "port": 3001
+  },
+  "serverUptime": {
+    "enable": false,
+    "port": 3001,
+    "socket": {
+      "enable": true,
+      "channelName": "uptime",
+      "verifyToken": ""
+    }
+  },
+  "autoRestart": {
+    "time": 1200000,
+    "notes": ""
+  },
+  "autoUptime": {
+    "enable": true,
+    "timeInterval": 200,
+    "url": "https://uptime.botrandom30.repl.co",
+    "notes": ""
+  },
+  "autoLoadScripts": {
+    "enable": false,
+    "ignoreCmds": "",
+    "ignoreEvents": "",
+    "notes": ""
+  },
+  "autoRefreshFbstate": true,
+  "autoReloginWhenChangeAccount": false,
+  "autoRestartWhenListenMqttError": false,
+  "restartListenMqtt": {
+    "disable": false,
+    "timeRestart": 0,
+    "delayAfterStopListening": 0,
+    "logNoti": false,
+    "notes": ""
+  },
+  "notiWhenListenMqttError": {
+    "notes": "",
+    "gmail": {
+      "enable": false,
+      "emailGetNoti": "",
+      "note": ""
+    },
+    "telegram": {
+      "enable": false,
+      "botToken": "",
+      "chatId": "",
+      "note": ""
+    },
+    "discordHook": {
+      "enable": false,
+      "webhookUrl": "",
+      "note": ""
+    }
+  },
+  "hideNotiMessage": {
+    "wrongCommand": false,
+    "adminOnly": false,
+    "threadBanned": false,
+    "userBanned": false
+  },
+  "logEvents": {
+    "disableAll": false,
+    "message": true,
+    "message_reaction": true,
+    "message_unsend": true,
+    "message_reply": true,
+    "event": true,
+    "read_receipt": false,
+    "typ": false,
+    "presence": false
+  },
+  "optionsFca": {
+    "forceLogin": true,
+    "listenEvents": true,
+    "updatePresence": true,
+    "listenTyping": true,
+    "logLevel": "error",
+    "selfListen": false,
+    "selfListenEvent": true,
+    "autoMarkDelivery": false,
+    "autoReconnect": true,
+    "notes": ""
+  }
+}
